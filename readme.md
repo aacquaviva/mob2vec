@@ -5,7 +5,7 @@ method for the removal of noise, a novel trajectory generalization method incorp
  behavioral information, and an unsupervised technique for the learning of vector 
  representations from sequential data. 
  
- Mob2vec is the result of an empirical study 
+ mob2vec is the result of an empirical study 
  conducted on real CDR data through an extensive experimentation. 
  As a result, it is shown that mob2vec generates vector representations of CDR 
  trajectories in low dimensional spaces which preserve the similarity of the 
