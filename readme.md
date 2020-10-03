@@ -1,18 +1,23 @@
 # mob2vec
 
-mob2vec is a novel methodological framework centered on the combined use of a recent symbolic trajectory segmentation 
-method for the removal of noise, a novel trajectory generalization method incorporating
- behavioral information, and an unsupervised technique for the learning of vector 
- representations from sequential data. 
+mob2vec is a novel framework for the representation learning of
+symbolic trajectories, in particular of CDR (Call Detail Record)
+trajectories. The methodology is centered on the combined use of a
+recent symbolic trajectory segmentation method for the removal of noise,
+a novel trajectory generalization method incorporating behavioral
+information, and an unsupervised technique for the learning of vector
+representations from sequential data.
  
- mob2vec is the result of an empirical study 
+mob2vec is the result of an empirical study 
  conducted on real CDR data through an extensive experimentation. 
  As a result, it is shown that mob2vec generates vector representations of CDR 
  trajectories in low dimensional spaces which preserve the similarity of the 
  mobility behavior of individuals.
  
- Further details are available in the paper ***Learning Behavioral Representations of Human Mobility*** https://arxiv.org/abs/2009.04719v2
  
+ This research is presented in the paper "*Maria Luisa Damiani, Andrea
+Acquaviva, Fatima Hachem, Matteo Rossini*. ***Learning Behavioral Representations of Human
+Mobility***. *In: Proceedings of ACM SIGSPATIAL 2020, 3-6 Nov, Seattle, US. DOI: 10.1145/3397536.3422255"*
 
 ## Code
 The code is divided into several executable files to facilitate their use and reading.
