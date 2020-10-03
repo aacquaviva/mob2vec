@@ -14,45 +14,45 @@ method for the removal of noise, a novel trajectory generalization method incorp
  Further details are available in the paper ***Learning Behavioral Representations of Human Mobility*** https://arxiv.org/abs/2009.04719v2
  
 
-### Code
+## Code
 The code is divided into several executable files to facilitate their use and reading.
 Executables need no arguments, only parameters in the config.json.
 
 <br />
 
-##### #0 Data preparation
+### #0 Data preparation
 It aims to create the sequences of symbols for each week and each user, starting from our dataset.
 
 <br />
 
-##### #1 Data preprocessing
+### #1 Data preprocessing
 Search for frequent sequence patterns in sequences, writing data for the training phase.
 
 <br />
 
-##### #2 Training
+### #2 Training
 Train two doc2vec models, as thought in sqn2vec.
 Optionally, trained embeddings can be saved.
 
 <br />
 
-##### #3 Embedding export
+### #3 Embedding export
 Export embeddings related to input sequences to file, using the inference method.
 
 <br />
 
-##### #4 Dimensionality reduction
+### #4 Dimensionality reduction
 Reduces the dimensionality of embeddings with UMAP (128D -> 2D). It supports multiple values of n_neighbors and min_dist.
 
 <br />
 
-##### #5 Evaluation with jensen-shannon divergence
+### #5 Evaluation with jensen-shannon divergence
 For a defined number of user pairs, it correlates the jensen shannon divergence of the original rank sequences and the 
 Euclidean distance of the 2D embeddings. Correlation is measured with Pearson's correlation coefficient (r).
 
 <br />
 
-##### #6 Validation
+### #6 Validation
 Test suite divided into three sequential parts. The first consists in the creation of modified sequences starting 
 from the original ones, removing one or more less significant symbols. The second is to export the embeddings of the 
 new sequences via inference. The third shows the position of the modified sequences with respect to the original ones:
@@ -61,18 +61,18 @@ new sequences via inference. The third shows the position of the modified sequen
  
 <br />
 
-##### #7 Plot 2D embedding dataset
+### #7 Plot 2D embedding dataset
 Simply plot 2D embedding dataset, with the ability to juxtapose specific user labels.
 
 <br />
 
-##### #8 Plot distance between similar trajectories
+### #8 Plot distance between similar trajectories
 Create some boxplots to highlight the Euclidean distance between the representations of the original sequences and
  those of the sequences without a certain number of less significant symbols.
 
 <br />
 
-### Disclaimer
+## Disclaimer
 This code is provided for reading purposes and is no longer mantained.
 
 This code was not designed for performance or application purposes, but for research purposes only.
