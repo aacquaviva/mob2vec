@@ -29,7 +29,7 @@ coords = np.empty((n_users, n_embeddings), dtype=tuple)
 
 for neigh in n_neighbors:
     for j, min_d in enumerate(min_dist):
-        umap_alt_embedding_path = umap_embedding_path = "data/umap_embedings_{}_{}_{}.csv".format(neigh, dist, distance)
+        umap_alt_embedding_path = umap_embedding_path = "data/umap_embeddings_{}_{}_{}.csv".format(neigh, dist, distance)
         print("Loading umap alt embedding... file={}".format(umap_alt_embedding_path))
         with open (umap_alt_embedding_path) as f_alt_umap:
             for user_index in range(input_data_len):

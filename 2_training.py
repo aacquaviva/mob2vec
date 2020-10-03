@@ -3,7 +3,7 @@ import timeit
 import datetime
 from gensim.models import Doc2Vec
 from gensim.models.doc2vec import TaggedDocument
-from utils import load_config, load_lab_seq_sp, embedding_to_file, labels_to_file
+from utils import load_config, load_lab_seq_sp, labels_to_file
 
 
 def assign_sequence_id(sequences):
@@ -24,7 +24,6 @@ output_embedding_path = config["trained_embeddings_path"]
 output_labels_path = config["labels"]
 output_model_sym_path = config["model_sym_path"]
 output_model_SP_path = config["model_sp_path"]
-
 
 start_date_time = datetime.datetime.now()
 start_time = timeit.default_timer()

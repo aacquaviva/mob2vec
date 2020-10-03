@@ -60,7 +60,7 @@ knn = 100
 
 phase_1_create_traj_and_SP = True
 phase_2_export_new_embeddings = True
-phase_3_eval_downsampled_traj_rank = True
+phase_3_eval_downsampled_traj_rank = False
 
 
 def check_if_present_in_df(id, dataframe):
