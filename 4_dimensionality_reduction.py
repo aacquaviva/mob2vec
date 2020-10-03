@@ -22,6 +22,7 @@ n_dim = config["umap_dimensions"]
 distance = config["umap_distance"]
 n_neighbors = config["umap_n_neighbors"]
 min_dist = config["umap_min_dist"]
+umap_embedding_folder = config["umap_embedding_folder"]
 
 start_date_time = datetime.datetime.now()
 start_time = timeit.default_timer()
