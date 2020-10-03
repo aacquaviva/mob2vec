@@ -11,6 +11,8 @@ method for the removal of noise, a novel trajectory generalization method incorp
  trajectories in low dimensional spaces which preserve the similarity of the 
  mobility behavior of individuals.
  
+ Further details are available in the paper ***Learning Behavioral Representations of Human Mobility*** https://arxiv.org/abs/2009.04719v2
+ 
 
 ### Code
 The code is divided into several executable files to facilitate their use and reading.
